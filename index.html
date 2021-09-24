@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Liana Technologies</title>  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/additionalstyles.css" rel="stylesheet">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <link rel="icon" href="images/favicon.jpg">
+    </head>
+    <body>
+      <style>
+      /* Main banner image */
+      .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/banner.png");
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      }
+
+      .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      }
+
+      .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: black;
+      background-color: #ddd;
+      text-align: center;
+      cursor: pointer;
+      }
+
+      .hero-text button:hover {
+      background-color: #555;
+      color: white;
+      }
+
+      /* Custom fonts */
+      @font-face {
+      font-family: OpenSansSemiBold;
+      src: url(fonts/OpenSans-SemiBold.ttf);
+      }
+      @font-face {
+      font-family: OpenSansLight;
+      src: url(fonts/OpenSans-Light.ttf);
+      }
+      @font-face {
+      font-family: OpenSansRegular;
+      src: url(fonts/OpenSans-Regular.ttf);
+      }
+
+      .image1 {
+      background-image: url("images/image1.png");
+      height: 50%;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      transition: transform .2s;
+      z-index: 100;
+      }
+      .image2 {
+      background-image: url("images/image2.png");
+      height: 50%;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      transition: transform .2s;
+      z-index: 100;
+      }
+      .image3 {
+      background-image: url("images/image1.png");
+      height: 50%;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      transition: transform .2s;
+      z-index: 100;
+      }
+      .imagehover:hover {
+      filter: brightness(1.15);
+      cursor: pointer;
+      -ms-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      }
+    </style>
+
+<!-- Top Bar -->
+<nav style="background-color: #4c8930 !important;" class="py-2 bg-light border-bottom">
+    <div class="container d-flex flex-wrap">
+      <ul class="nav me-auto">
+        
+      </ul>
+      <ul class="nav" style="font-family: OpenSansRegular;">
+        <li class="nav-item"><a href="#" style="color: white; margin-right: 15px;" class="nav-link link-dark px-1">News</a></li>
+        <li class="nav-item"><a href="#" style="color: white; margin-right: 15px;" class="nav-link link-dark px-1">Intranet</a></li>
+        <select style="background-color: white; border: none; width: 175px; border-radius: 5px;">
+            <option>In English</option>
+        </select>
+      </ul>
+      
+    </div>
+  </nav>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+    <div class="container-xl">
+      <a href="index.html"> <img class="navbar-brand" style="width: 130px; height: 130px;" src="images/lianatech_logo.svg"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample07XL" style="font-family: OpenSansRegular;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="topbar">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex"  id="topbar">
+            <input style="width: 180px;" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="searchbtn" class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Banner image -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 class="maintitle" id="light" style="font-size:50px;">Software fueling digital marketing</h1>
+      <button id="learnmorebtn" class="btn btn-outline-success" type="submit">Learn More</button>
+    </div>
+  </div>
+
+  <!-- For mobile | Company, Products & Contact us -->
+  <div id="mobilealbum" style="display: none;">
+    <a href="#">
+      <div class="image1 imagehover" style="margin-top: 35px;">
+        <div class="hero-text">
+          <h1 class="maintitle" id="semibold" style="font-size: 2.1em;">Company</h1>
+        </div>
+    </div>
+    </a>
+    <a href="#">
+    <div class="image2 imagehover" style="margin-top: 35px;">
+      <div class="hero-text">
+        <h1 class="maintitle" id="semibold" style="font-size: 2.1em;">Products</h1>
+      </div>
+    </div>
+    </a>
+    <a href="#">
+    <div class="image3 imagehover" style="margin-top: 35px;">
+      <div class="hero-text">
+        <h1 class="maintitle" id="semibold" style="font-size: 2.1em;">Contact us</h1>
+      </div>
+    </div>
+    </a>
+  </div>
+
+      <!-- Company, Products & Contact us -->
+      <center>
+      <div id="imagealbum">
+        <div id="row" style="position: relative; margin-top: 35px;">
+        <div id="column" class="card" style="width: 22rem; border: none !important;">
+          <div id="imagehover">
+            <a href="#">
+              <img class="card-img-top" style="border-radius: 10px;" src="images/image1.png">
+              <h2 class="centered">Company</h2>
+            </a>
+          </div>
+          </div>
+
+          <div id="column" class="card" style="width: 22rem; border: none !important;">
+            <div id="imagehover">
+              <a href="#">
+                <img class="card-img-top" style="border-radius: 10px;" src="images/image2.png">
+                <h2 class="centered">Products</h2>
+              </a>
+            </div>
+          </div>
+
+          <div id="column" class="card" style="width: 22rem; border: none !important;">
+            <div id="imagehover">
+              <a href="#">
+                <img class="card-img-top" style="border-radius: 10px;" src="images/image3.png">
+                <h2 class="centered">Contact us</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </center>
+
+    <!-- Using a flexbox to make the div below responsive -->
+    <div class="flexbox" style="margin-top: -30px">
+      <div class="leftbar">
+
+      </div>
+
+      <!-- Clients, Employees and Daily users statistics -->
+      <div class="container px-4 py-5" id="hanging-icons">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start" id="first">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                  <img class="images" src="images/icon1.png">
+                </div>
+                <div>
+                  <h2 style="font-family: OpenSansLight;">3000</h2>
+                  <p id="semibold">Clients</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start" id="second">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                  <img class="images" src="images/icon2.png">
+                </div>
+                <div>
+                  <h2 style="font-family: OpenSansLight;">180</h2>
+                  <p id="semibold"> Employees</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start" id="third">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                  <img class="images" src="images/icon3.png">
+                </div>
+                <div>
+                  <h2 style="font-family: OpenSansLight;">10000</h2>
+                  <p id="semibold">Daily users</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="rightbar">
+        
+          </div>
+
+      </div>
+
+        <!-- News -->
+        <section id="newssection" class="bg-light py-5 border-bottom" style="background-color: #eceeef !important; margin-top: -35px;">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder" id="semibold" style="margin-top: -50px;">Latest news</h2>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5" id="cardbody" style="height: 220px;">
+                                <div class="small text-uppercase fw-bold text-muted" id="regular">27.07.2016</div>
+                                    <p class="mb-2" id="semibold">
+                                        Liana Technologies and Encode Solutions merge to create unique mobile solutions
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5" id="cardbody" style="height: 220px;">
+                                <div class="small text-uppercase fw-bold text-muted" id="regular">28.01.2016</div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2" id="semibold">
+                                        From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card">
+                            <div class="card-body p-5" id="cardbody" style="height: 220px;">
+                                <div class="small text-uppercase fw-bold text-muted" id="regular">02.07.2015</div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2" id="semibold">
+                                        Liana Technologies Hong Kong launched a series of digital marketing events in June
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+
+      <!-- References -->
+      <center>
+        <h2 id="semibold" class="fw-bolder">References</h2>
+
+        <div id="row" class="references">
+        <div id="column" class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/bosch.png">
+            <div class="card-body">
+            <hr>
+              <h5 class="card-title" id="semibold">Robert Bosch</h5>
+              <p class="card-text">Bosch is a multinational engineering and electronics company.</p>
+            </div>
+          </div>
+
+          <div id="column" class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/bodyshop.png">
+            <div class="card-body">
+            <hr>
+              <h5 class="card-title" id="semibold">The Body Shop</h5>
+              <p class="card-text">The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries.</p>
+            </div>
+          </div>
+
+          <div id="column" class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/laplandhotels.png">
+            <div class="card-body">
+            <hr>
+              <h5 class="card-title" id="semibold">Lapland Hotels</h5>
+              <p class="card-text">Lapland Hotels is the largest and the most diverse hotel chain in Lapland. </p>
+            </div>
+          </div>
+
+          <div id="column" class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/ikea.png">
+            <div class="card-body">
+            <hr>
+              <h5 class="card-title" id="semibold">IKEA</h5>
+              <p class="card-text">IKEA is a multinational furniture store. 
+              <br> 
+              <br> 
+            </p>
+            </div>
+          </div>
+        </center>
+
+        <hr>
+
+        <!-- For mobiles only | References -->
+        <style>
+          @media screen and (max-width: 320px) {
+          .references {
+            display: none;
+          }
+          #mobileonlyreference {
+            display: block !important;
+          }
+          #topbar {
+            display: block !important;
+            align-items: unset !important;
+            justify-content: left !important;
+          }
+          #searchbtn {
+            margin-top: 5px !important;
+          }
+        }
+
+        </style>
+
+        <div id="mobileonlyreference" style="display: none;">
+          <center>
+          <img class="card-img-top" src="images/bosch.png">
+          <hr>
+          <p>Bosch is a multinational engineering and electronics company.</p>
+          <hr>
+          <img class="card-img-top" src="images/bodyshop.png">
+          <hr>
+          <p>The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries.</p>
+          <hr>
+          <img class="card-img-top" src="images/laplandhotels.png">
+          <hr>
+          <p>Lapland Hotels is the largest and the most diverse hotel chain in Lapland.</p>
+          <hr>
+          <img class="card-img-top" src="images/ikea.png">
+          <hr>
+          <p>IKEA is a multinational furniture store. </p>
+          <hr>
+          </center>
+        </div>
+
+        <!-- Newsletter -->
+        <section class="bg-light py-5" style="background-color: white !important; margin-top: -50px;">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder" id="semibold">Subscribe to our newsletter</h2>
+                    <p class="lead mb-0" id="regular" style="font-size: 1.1em;">Follow our story and get the latest promotonial <br> news about our products and events.</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="form-floating mb-3" style="margin-top: -15px;">
+                                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
+                                <label for="inputEmail">Your email address</label>
+                            </div>
+                            <div class="d-grid"> 
+                              <button id="subscribebtn" class="btn btn-primary btn-lg" onclick="window.open('newsletter.html')">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+          <div class="footer">
+              <div class="leftside">
+                <h4 id="regular" class="footerinfo">Liana Technologies</h4>
+                  <strong>
+                    <p id="regular" class="footertext" style="margin-top: 35px;">Sales and inquiries</p>
+                  </strong>
+                <div class="footercontent1">
+                  <p id="regular" class="footertext">Email: sales@liantech.com</p>
+                </div>
+                <p id="regular" class="footertextmobile" style="display: none;">Email: <br> sales@liantech.com</p>
+                <div class="footercontent2">
+                  <p id="regular" class="footertext">Phone: +358 10 387 7053</p>
+                </div>
+                <p id="regular" class="footertextmobile2" style="display: none;">Phone: <br> +358 10 387 7053</p>
+                <div class="d-grid"><button style="margin-top: 10px;" id="contactusbtn" class="btn btn-primary btn-lg" type="submit">Contact us</button></div>
+              </div>
+              <div id="topfooter">
+                  <div id="footerheaderbox">
+                      <h3 class="footerheader"></h3>
+                  </div>
+              </div>
+              <div class="rightside">
+                <div class="linkbox">
+                  <a href="#" class="footerlinks">Company</a>
+                  <a href="#" class="footerlinks">Products</a>
+                  <a href="#" class="footerlinks">Contact us</a>
+                  <a href="#" class="footerlinks">News</a>
+                  <a href="#" class="footerlinks">Intranet</a>
+                </div>
+              <div class="secondrightside">
+                <div class="icons">
+                  <a href="https://www.facebook.com/LianaTechFI/" class="fa fa-facebook"></a>
+                  <a href="https://twitter.com/lianatech_fi?lang=fi" class="fa fa-twitter"></a>
+                  <a href="https://hk.linkedin.com/company/liana-technologies" class="fa fa-linkedin"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+</body>
+</html>
