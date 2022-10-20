@@ -1,0 +1,37 @@
+.statistics_container {
+    display: flex;
+    justify-content: center;
+    font-family: var(--light);
+    padding-bottom: 50px;
+}
+
+.statistics {
+    width: var(--maxWidth);
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    color: var(--textColor);
+    display: flex;
+    align-items: center;
+}
+
+.icon_stats {
+    margin-left: 16px;
+    display: grid;
+}
+
+.icon_stats span {
+    font-size: 28px;
+    position: relative;
+    top: 18px;
+}
+
+.icon_stats p {
+    position: relative;
+    top: 8px;
+    font-family: var(--semibold);
+}
+
+

@@ -1,0 +1,27 @@
+.btn {
+    background-color: var(--primary);
+    border: none;
+    color: #fff;
+    transition: 0.4s;
+    font-family: var(--regular);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body,html {
+    overflow-x: hidden;
+}
+
+.btn:hover {
+    filter: brightness(1.2);
+}
+
+h1 {
+    font-size: var(--mainHeader);
+    font-family: var(--semibold);
+    color: var(--textColor)
+}
+
+input {
+    text-indent: 10px;
+}

@@ -1,0 +1,35 @@
+.topbar_container {
+    width: 100%;
+    height: 55px;
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    font-family: var(--regular);
+}
+
+.topbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: var(--maxWidth);
+}
+
+.topbar_links a, select {
+    margin-inline: 12px;
+    font-family: var(--regular);
+}
+
+.topbar_links a {
+    color: white;
+    text-decoration: none;
+}
+
+.topbar_links select {
+    height: 40px;
+    width: 175px;
+    background-color: #fff;
+    border: none;
+    border-radius: var(--radius);
+}
