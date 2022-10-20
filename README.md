@@ -1,4 +1,5 @@
 # Liana Technologies frontpage practise
+Live: https://lianatechnologies.netlify.app/
 
 # Getting Started with Create React App
 
