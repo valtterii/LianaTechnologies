@@ -1,4 +1,7 @@
 # Liana Technologies frontpage exercise
+
+![](https://www.businessfinland.fi/4ae707/contentassets/7a31cb3c6f734e748e293191e9d6d695/companylogo.jpg)
+
 Live: https://lianatechnologies.netlify.app/
 
 # Getting Started with Create React App
