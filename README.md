@@ -1,6 +1,6 @@
 # Liana Technologies frontpage exercise
 
-![](https://www.businessfinland.fi/4ae707/contentassets/7a31cb3c6f734e748e293191e9d6d695/companylogo.jpg)
+![](https://images.ctfassets.net/4pxjo1vaz7xk/Eu4LUtuOyKPyPkaA6Iy6Y/d448981e5ff485f680ca860382bf7f6b/lianatech_logo.png)
 
 Live: https://lianatechnologies.netlify.app/
 
