@@ -3,6 +3,7 @@ import './main.css'
 import facebook from '../../images/facebook.png'
 import twitter from '../../images/twitter.png'
 import linkedin from '../../images/linkedin.png'
+import { Button } from '../../components'
 
 function Footer() {
   return (
@@ -15,7 +16,7 @@ function Footer() {
                   <li style={{fontWeight: "bold"}}>Sales and inquiries</li>
                   <li>Email: sales@liantech.com</li>
                   <li>Phone: +358 10 387 7053</li>
-                  <button className='btn btn_footer'>Contact us</button>
+                  <Button class="btn_footer" text="Contact us" />
                 </ul>
               </div>
             </div>

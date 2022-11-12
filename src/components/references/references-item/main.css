@@ -1,0 +1,30 @@
+.references_item {
+    text-align: center;
+    padding-inline: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: var(--radius);
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.small_header {
+    font-size: 20px;
+    font-family: var(--semibold);
+    padding: 16px 0px 12px 0px;
+}
+
+.references_item p {
+    margin: 0;
+    padding: 0px 16px 16px 16px;
+}
+
+.references_item img {
+    padding-bottom: 15px;
+}
+
+
+

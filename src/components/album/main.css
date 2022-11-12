@@ -11,28 +11,3 @@
     width: var(--maxWidth);
 }
 
-.item > img {
-    border-radius: calc(var(--radius) + 12px);
-}
-
-.item {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.item_header {
-    position: absolute;
-    font-size: 32px;
-    color: white;
-    font-family: var(--semibold);
-}
-
-.item:hover {
-    transform: scale(1.05);
-    filter: brightness(1.2);
-}
-

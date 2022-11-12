@@ -1,5 +1,6 @@
 import React from 'react'
 import './main.css'
+import { Button } from '../../components'
 
 function Banner(props) {
   return (
@@ -8,7 +9,7 @@ function Banner(props) {
             <div className='banner_content'>
                 <div data-aos="zoom-out-up" data-aos-mirror="true" data-aos-once="false">
                     <div className='banner_title'>Software fueling digital marketing</div>
-                    <button className='btn btn_banner'>Learn more</button>
+                    <Button class="btn_banner" text="Learn More" />
                 </div>
             </div>
             <img src={props.image} />

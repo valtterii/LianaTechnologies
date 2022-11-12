@@ -26,32 +26,3 @@
     width: var(--maxWidth);
     gap: 30px;
 }
-
-.news_item {
-    background-color: #fff;
-    padding: 24px;
-    display: grid;
-    grid-auto-rows: minmax(150px, auto);
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    transition: 0.4s;
-}
-
-.news_item:hover {
-    transform: scale(1.1);
-}
-
-.news_item p {
-    padding-inline: 24px;
-}
-
-.news_item .date {
-    color: #6c757d;
-}
-
-.news_grid a {
-    text-decoration: none;
-    color: var(--textColor);
-    font-family: var(--semibold);
-}
-
-

@@ -1,14 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './main.css'
 import logo from '../../images/lianatech_logo.svg'
+import { Mobile, Link, Button } from '../../components'
 
 function Navbar() {
-    const [click, setClick] = useState(false);
-
-    function handleClick() {
-        setClick(!click);
-    }
-
     return (
         <nav className='navbar_container'>
             <div className='navbar'>
@@ -18,31 +13,16 @@ function Navbar() {
                     </a>
                 </div>
                 <div className='navbar_links'>
-                    <a href='#'>Company</a>
-                    <a href='#'>Products</a>
-                    <a href='#'>Contact Us</a>
+                    <Link url="#" text="Company" />
+                    <Link url="#" text="Products" />
+                    <Link url="#" text="Contact Us" />
                 </div>
                 <div className='space'></div>
                 <div className='search'>
                     <input type="text" placeholder='Search' />
-                    <button className='btn'>Search</button>
+                    <Button class="" text="Search" />
                 </div>
-                <div className='mobile' style={{display: "none"}}>
-                    <button onClick={handleClick} className='mobile_navbar'>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </button>
-                </div>
-                <div className={click ? "show" : "hidden"}>
-                    <div className='mobile_menu'>
-                        <ul>
-                            <a href='#'><li>Company</li></a>
-                            <a href='#'><li>Products</li></a>
-                            <a href='#'><li>Contact Us</li></a>
-                        </ul>
-                    </div>
-                </div>
+                <Mobile />
             </div>
         </nav>
     )

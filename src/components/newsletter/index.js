@@ -1,5 +1,6 @@
 import React from 'react'
 import './main.css'
+import { Button } from '../../components'
 
 function Newsletter() {
   return (
@@ -12,7 +13,7 @@ function Newsletter() {
         </div>
         <div className='newsletter'>
           <input type={"email"} placeholder='Your email address' />
-          <button className='btn btn_newsletter'>Subscribe</button>
+          <Button class="btn_newsletter" text="Subscribe" />
         </div>
     </section >
   )
