@@ -1,3 +1,9 @@
+# Liana Technologies frontpage exercise
+
+<!-- ![](https://images.ctfassets.net/4pxjo1vaz7xk/Eu4LUtuOyKPyPkaA6Iy6Y/d448981e5ff485f680ca860382bf7f6b/lianatech_logo.png) !-->
+
+Live: https://lianatechnologies.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
